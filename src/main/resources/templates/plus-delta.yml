@@ -1,13 +1,15 @@
 name: Plus Delta
-description: Template used for quick, small sessions to gain feedback on a specific idea or action. Examples include after pairing, after a meeting, after an event
+description: Template used for quick, small sessions to gain feedback on a specific idea or action. Examples include after pairing, after a meeting, or after an event
 categories:
   - name: "Plus"
+    description: "What worked and is worth keeping? Call out what you would want to happen the same way next time."
     position: 1
     lightBackgroundColor: "#2ecc71"
     lightTextColor: "#ffffff"
     darkBackgroundColor: "#27ae60"
     darkTextColor: "#ffffff"
   - name: "Delta"
+    description: "What would you change next time? Name one concrete adjustment we can make."
     position: 2
     lightBackgroundColor: "#3498db"
     lightTextColor: "#ffffff"

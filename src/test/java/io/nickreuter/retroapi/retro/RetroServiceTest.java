@@ -20,7 +20,7 @@ import static org.mockito.Mockito.*;
 class RetroServiceTest {
     private final RetroRepository retroRepository = mock(RetroRepository.class);
     private final ThoughtRepository thoughtRepository = mock(ThoughtRepository.class);
-    private final Template savedTemplate = new Template("template", "name", "description", List.of(new Category("column", 1, "", "", "", "")));
+    private final Template savedTemplate = new Template("template", "name", "description", List.of(new Category("column", "column description", 1, "", "", "", "")));
     private final ApplicationEventPublisher applicationEventPublisher = mock(ApplicationEventPublisher.class);
     private final RetroService subject = new RetroService(retroRepository, thoughtRepository, List.of(savedTemplate), applicationEventPublisher);
 

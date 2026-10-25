@@ -2,18 +2,21 @@ name: Happy, Confused, Sad
 description: Description
 categories:
   - name: "Happy"
+    description: "What made you feel happy?"
     position: 1
     lightBackgroundColor: "#ffffff"
     lightTextColor: "#ffffff"
     darkBackgroundColor: "#ffffff"
     darkTextColor: "#ffffff"
   - name: "Confused"
+    description: "What confused you?"
     position: 2
     lightBackgroundColor: "#ffffff"
     lightTextColor: "#ffffff"
     darkBackgroundColor: "#ffffff"
     darkTextColor: "#ffffff"
   - name: "Sad"
+    description: "What saddened you?"
     position: 3
     lightBackgroundColor: "#ffffff"
     lightTextColor: "#ffffff"
